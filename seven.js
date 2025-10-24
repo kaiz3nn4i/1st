@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (let i = 0; i < 10; i++) {
             const heart = document.createElement('div');
             heart.classList.add('heart');
-            heart.innerHTML = '🩵';
+            heart.innerHTML = '🩷';
             heart.style.left = Math.random() * 90 + 'vw';
             heart.style.fontSize = (Math.random() * 20 + 10) + 'px';
             heart.style.animationDuration = (Math.random() * 3 + 4) + 's';
@@ -42,4 +42,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initial hearts
     createHearts();
+
 });
