@@ -36,7 +36,7 @@ body {
 
 h1 {
     font-family: 'Playfair Display', serif;
-    color: #3699d2;
+    color: #bd316b;
     margin-bottom: 20px;
     font-size: 2.5rem;
 }
@@ -48,7 +48,7 @@ h1 {
 }
 
 .reveal-btn {
-    background: linear-gradient(45deg, #3189bd, #3699d2);
+    background: linear-gradient(45deg, #bd316b, #bd316b);
     color: white;
     border: none;
     padding: 15px 40px;
@@ -56,7 +56,7 @@ h1 {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(107, 211, 255, 0.4);
+    box-shadow: 0 4px 15px rgba(225, 107, 201, 0.6);
     font-weight: 400;
     position: relative;
     overflow: hidden;
@@ -65,7 +65,7 @@ h1 {
 
 .reveal-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(107, 166, 255, 0.6);
+    box-shadow: 0 6px 20px rgba(255, 107, 201, 0.6);
 }
 
 .reveal-btn:active {
@@ -79,7 +79,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #266d96, #3187b9);
+    background: linear-gradient(45deg, #962664, #962664);
     z-index: -1;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -134,7 +134,7 @@ h1 {
     right: 15px;
     width: 30px;
     height: 30px;
-    background: #3699d2;
+    background: #bd316b;
     color: white;
     border: none;
     border-radius: 50%;
@@ -147,7 +147,7 @@ h1 {
 }
 
 .close-btn:hover {
-    background: #266d96;
+    background: #962664;
     transform: rotate(90deg);
 }
 
@@ -157,7 +157,7 @@ h1 {
 }
 
 .letter-text h2 {
-    color: #266d96;
+    color: #bd316b;
     margin-bottom: 20px;
     font-size: 2rem;
 }
@@ -171,7 +171,7 @@ h1 {
     font-size: 1.3rem;
     margin-top: 30px;
     text-align: right;
-    color: #266d96;
+    color: #bd316b;
 }
 
 .hearts {
@@ -205,7 +205,7 @@ h1 {
     content: "❤";
     position: absolute;
     left: 0;
-    color: #3699d2;
+    color: #bd316b;
 }
 
 .postscript {
@@ -232,7 +232,7 @@ h1 {
 }
 
 .footer p {
-    color: #3699d2;
+    color: #bd316b;
     margin-bottom: 10px;
     font-size: 0.9rem;
 }
